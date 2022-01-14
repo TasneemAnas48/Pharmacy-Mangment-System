@@ -19,7 +19,7 @@ This is a Pharmacy Management System, The system has 3 types of users are the Ad
 ## Add medicine page
 ![](https://raw.githubusercontent.com/TasneemAnas48/PharmacyMangmentSystem/d7e19e8c475d4ce8cefba68c9aa0e518c93548ac/Screenshot/25.jpg)
 
-## Receive products from Warehouse to inventory 
+## Receive products from warehouse to inventory 
 ![](https://raw.githubusercontent.com/TasneemAnas48/PharmacyMangmentSystem/d7e19e8c475d4ce8cefba68c9aa0e518c93548ac/Screenshot/46.jpg)
 
 ## Display medicine in grid
