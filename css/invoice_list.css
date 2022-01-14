@@ -1,0 +1,391 @@
+
+/* Start Page Customer List */
+
+
+.invoice-list .card{
+    height: auto;
+    margin-bottom: 20px;
+    padding-bottom: 40px;
+    font-size: 15px;
+    box-shadow: 0 1rem 1rem rgb(0 0 0 / 8%);
+}
+.invoice-list .card-header{
+    font-size: 20px;
+    padding:15px;
+    background-color:white;
+    margin-bottom: 15px;
+}
+
+
+
+.invoice-list .card{
+    height: auto;
+    margin-bottom: 20px;
+    padding-bottom: 40px;
+    font-size: 15px;
+    box-shadow: 0 1rem 1rem rgb(0 0 0 / 8%);
+}
+.invoice-list .card-header{
+    font-size: 20px;
+    padding:15px;
+    background-color:white;
+    margin-bottom: 15px;
+}
+
+
+
+/* Delete Icone */
+.invoice-list .table .fa-trash{
+    color: #dc3545;
+    background-color: #ffe3e6;
+    border-radius: 2px;
+    padding: 4px;
+    font-size: 13px;
+    margin-left: 10px;
+    border: 1px solid #dc3545;
+    margin-top: 5px;
+    margin-left: 12px;
+}
+
+/* Show Icone */
+.invoice-list .table .fa-eye{
+    color: rgb(85, 149, 233);
+    background-color: #e7efff;
+    border-radius: 2px;
+    padding: 4px 3px 5px 3px;
+    font-size: 12px;
+    margin-left: 6px;
+    border: 1px solid rgb(85, 149, 233);
+    margin-top: 5px;
+}
+
+/* Print Icone */
+.invoice-list .table .fa-print{
+    color: rgb(233, 231, 85);
+    background-color: #fffbe7;
+    border-radius: 2px;
+    padding: 4px;
+    font-size: 13px;
+    margin-left: 6px;
+    margin-right: 2px;
+    border: 1px solid rgb(233, 231, 85);
+    margin-top: 5px;
+}
+
+/* Print Icone Hover*/
+.invoice-list .table .fa-print:hover{
+    color:  #fffbe7;
+    background-color:  rgb(233, 231, 85);
+}
+
+
+/* Delete Icone Hover */
+.invoice-list .table .fa-trash:hover{
+    color: #ffe3e6;
+    background-color: #dc3545;
+}
+
+/* Show Icone Hover*/
+.invoice-list .table .fa-eye:hover{
+    color:  #e7efff;
+    background-color: rgb(85, 149, 233);
+}
+/* Edit Button Add Customar */
+.invoice-list .card-header button{
+    font-size: 15px;
+}
+
+
+.invoice-list .card-body .icone-pdf-excel{
+    background-color: #f0f1f1;
+}
+
+.invoice-list .card-body .icone-pdf-excel i{
+    padding: 10px;
+    background-color: #f0f1f1;
+    margin: 0;
+    color: black;
+}
+
+.invoice-list .card-body .icone-pdf-excel i:hover{
+    background-color: #cecece
+}
+.invoice-list .form-control {
+    width: auto;
+}
+
+table.dataTable.dtr-inline.collapsed>tbody>tr.parent>td.dtr-control:before, table.dataTable.dtr-inline.collapsed>tbody>tr.parent>th.dtr-control:before{
+    content: "-";
+    background-color: var(--color-main) !important;
+}
+
+table.dataTable.dtr-inline.collapsed>tbody>tr>td.dtr-control:before, table.dataTable.dtr-inline.collapsed>tbody>tr>th.dtr-control:before {
+    background-color: var(--color-main) !important;
+}
+
+.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+    border: 0.1px solid #c9c9c9 !important;
+}
+.table-info, .table-info>td, .table-info>th {
+    background-color: #eafcff52;
+}
+
+.table.dataTable {
+    border-collapse:collapse !important;
+}
+/* Edit Button Search */
+.dataTables_filter input{
+    margin-bottom: 20px;
+    padding-top: 20px; 
+    padding-bottom: 20px;
+    font-size: 14px;
+    border: #afafaf solid 1px;
+}
+
+.dataTables_filter input:focus{
+    border: var(--color-main) solid 1px;
+    box-shadow: inset 0 1px 1px rgb(0 124 160 / 10%), 0 0 20px rgb(0 124 160/ 10%);
+}
+
+
+.dataTables_length select{
+    font-size: 14px;
+    border: #afafaf solid 1px;
+} 
+
+
+.dataTables_length select:focus{
+    border: var(--color-main) solid 1px;
+    box-shadow: inset 0 1px 1px rgb(0 124 160 / 10%), 0 0 20px rgb(0 124 160/ 10%);
+}
+
+select.form-control-sm:not([size]):not([multiple]){
+    height: 40px;
+}
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: var(--color-main);
+    border-color: var(--color-main);
+}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    background-color: var(--color-main);
+    border-radius: 2px !important;
+}
+
+.pagination>li>a, .pagination>li>span {
+    color: var(--color-main);
+}
+table.table-bordered.dataTable {
+    border-right-width: 1px !important;
+}
+
+
+
+.datepicker {
+    border-radius: 0;
+    padding: 0;
+}
+.datepicker-days table thead, .datepicker-days table tbody, .datepicker-days table tfoot {
+    padding: 10px;
+    display: list-item;
+    font-size: 14px;
+}
+.datepicker-days table thead, .datepicker-months table thead, .datepicker-years table thead, .datepicker-decades table thead, .datepicker-centuries table thead {
+    background: var(--color-main);
+    color: #ffffff;
+    border-radius: 0;
+}
+.datepicker-days table thead tr:nth-child(2n+0) td, .datepicker-days table thead tr:nth-child(2n+0) th {
+    border-radius: 3px;
+}
+.datepicker-days table thead tr:nth-child(3n+0) {
+    text-transform: uppercase;
+    font-weight: 300 !important;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.table-condensed > tbody > tr > td, .table-condensed > tbody > tr > th, .table-condensed > tfoot > tr > td, .table-condensed > tfoot > tr > th, .table-condensed > thead > tr > td, .table-condensed > thead > tr > th {
+    padding: 11px 13px;
+}
+.datepicker-months table thead td, .datepicker-months table thead th, .datepicker-years table thead td, .datepicker-years table thead th, .datepicker-decades table thead td, .datepicker-decades table thead th, .datepicker-centuries table thead td, .datepicker-centuries table thead th {
+    border-radius: 0;
+}
+.datepicker td, .datepicker th {
+    border-radius: 50%;
+    padding: 0 12px;
+}
+.datepicker-days table thead, .datepicker-months table thead, .datepicker-years table thead, .datepicker-decades table thead, .datepicker-centuries table thead {
+    background: var(--color-main);
+    color: #ffffff;
+    border-radius: 0;
+}
+.datepicker table tr td.active, .datepicker table tr td.active:hover, .datepicker table tr td.active.disabled, .datepicker table tr td.active.disabled:hover {
+    background-image: none;
+}
+.datepicker .prev, .datepicker .next {
+    color: rgba(255, 255, 255, 0.5);
+    transition: 0.3s;
+    width: 37px;
+    height: 37px;
+}
+.datepicker .prev:hover, .datepicker .next:hover {
+    background: transparent;
+    color: rgba(255, 255, 255, 0.99);
+    font-size: 21px;
+}
+.datepicker .datepicker-switch {
+    font-size: 24px;
+    font-weight: 400;
+}
+.datepicker .datepicker-switch:hover {
+    color: rgba(255, 255, 255, 0.7);
+    background: transparent;
+}
+.datepicker table tr td span {
+    border-radius: 2px;
+    margin: 3%;
+    width: 27%;
+}
+.datepicker table tr td span.active, .datepicker table tr td span.active:hover, .datepicker table tr td span.active.disabled, .datepicker table tr td span.active.disabled:hover {
+    background-color: var(--color-main);
+    background-image: none;
+}
+.dropdown-menu {
+    border: 1px solid rgba(0,0,0,.1);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+.datepicker-dropdown.datepicker-orient-top:before {
+    border-top: 7px solid rgba(0,0,0,.1);
+    
+}
+
+.datepicker table tr td.active:hover, .datepicker table tr td.active:hover:hover, .datepicker table tr td.active.disabled:hover, .datepicker table tr td.active.disabled:hover:hover, .datepicker table tr td.active:active, .datepicker table tr td.active:hover:active, .datepicker table tr td.active.disabled:active, .datepicker table tr td.active.disabled:hover:active, .datepicker table tr td.active.active, .datepicker table tr td.active:hover.active, .datepicker table tr td.active.disabled.active, .datepicker table tr td.active.disabled:hover.active, .datepicker table tr td.active.disabled, .datepicker table tr td.active:hover.disabled, .datepicker table tr td.active.disabled.disabled, .datepicker table tr td.active.disabled:hover.disabled, .datepicker table tr td.active[disabled], .datepicker table tr td.active:hover[disabled], .datepicker table tr td.active.disabled[disabled], .datepicker table tr td.active.disabled:hover[disabled] {
+    background-color: var(--color-main);
+    
+}
+
+.datepicker table tr td span.active:hover, .datepicker table tr td span.active:hover:hover, .datepicker table tr td span.active.disabled:hover, .datepicker table tr td span.active.disabled:hover:hover, .datepicker table tr td span.active:active, .datepicker table tr td span.active:hover:active, .datepicker table tr td span.active.disabled:active, .datepicker table tr td span.active.disabled:hover:active, .datepicker table tr td span.active.active, .datepicker table tr td span.active:hover.active, .datepicker table tr td span.active.disabled.active, .datepicker table tr td span.active.disabled:hover.active, .datepicker table tr td span.active.disabled, .datepicker table tr td span.active:hover.disabled, .datepicker table tr td span.active.disabled.disabled, .datepicker table tr td span.active.disabled:hover.disabled, .datepicker table tr td span.active[disabled], .datepicker table tr td span.active:hover[disabled], .datepicker table tr td span.active.disabled[disabled], .datepicker table tr td span.active.disabled:hover[disabled] {
+    background-color: var(--color-main);
+    
+}
+.datepicker table tr td span:hover, .datepicker table tr td span.focused {
+    background: var(--color-main);
+    color:white;
+}
+.datepicker .datepicker-months .month{
+    font-size: 14px;
+}
+.datepicker .prev, .datepicker .next{
+    font-size: 25px;
+}
+.datepicker .prev:hover, .datepicker .next:hover {
+    font-size: 25px;
+}
+.datepicker .datepicker-switch {
+    color: rgba(255, 255, 255, 0.7);
+    background: transparent;
+}
+.datepicker .datepicker-switch:hover {
+    color: white;
+}
+
+/* End Page Customer List */
+
+.invoice-list .find{
+    font-size: 15px;
+    padding: 9px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: #fff;
+    background-color: var(--color-main);
+    border-color: var(--color-main);
+}
+
+.invoice-list .add-up{
+    color: #fff;
+    background-color: var(--color-main);
+    border-color: var(--color-main);
+}
+
+.invoice-list .search-date{
+    height: 40px;
+    border: 1px solid #c9c9c9;
+    font-size: 14px;
+    
+}
+.invoice-list .search-date:focus{
+    border: 1px solid var(--color-main);
+    box-shadow: inset 0 1px 1px rgb(0 124 160 / 10%), 0 0 20px rgb(0 124 160/ 10%);
+}
+
+.invoice-list .input-group-text{
+    font-size: 15px;
+}
+
+.invoice-list .form-search-date{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.invoice-list .line{
+    height: 1px;
+    background: #c9c9c9;
+    margin-bottom: 20px;;
+}
+
+
+
+.invoice-list .dropdown-toggle::after{
+    visibility: hidden;
+}
+.invoice-list .dropdown-toggle{
+    padding: 0px;
+    border: 0px;
+}
+
+.invoice-list .dropdown-menu{
+    border: 0px !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    left: -10px !important;
+    top: -5px !important
+}
+
+.invoice-list .list-group-item-invoice{
+    font-size: 13.8px;
+    color: gray;
+    background-color: white;
+    right: -10px;
+    width: auto;
+}
+
+.invoice-list .list-group-item-invoice:hover{
+    background-color:  #e9ecef;
+    color: #495049;
+}
+
+.invoice-list .btn-list{
+    background-color: #e9ecef;
+    color: #495049;
+    border-radius: 2px;
+    font-size: 15px;
+    height: 42px;
+    padding-left: 15px;
+    border: 1px solid #c9c9c9;
+    margin-left: 15px !important;
+}
+
+.invoice-list .fa-code-branch{
+    margin-right: 10px;
+}
+
+.invoice-list .fa-money{
+    margin-right: 10px;
+}
+
+.invoice-list .row-filter{
+    margin-bottom: 20px;
+}

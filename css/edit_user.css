@@ -1,0 +1,431 @@
+
+
+.edit-user .card{
+    height: auto;
+    margin-bottom: 20px;
+    padding-bottom: 40px;
+    box-shadow: 0 1rem 1rem rgb(0 0 0 / 8%);
+}
+.edit-user .card-header{
+    font-size: 20px;
+    padding:15px;
+    background-color:white;
+    margin-bottom: 10px;
+}
+.edit-user .col{
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.edit-user input{
+    height: 40px;
+    font-size: 15px;
+    border:none;
+    border: 1px solid #c9c9c9;
+    
+}
+
+.edit-user input:focus{
+    border:none;
+    border: 1px solid var(--color-main);
+}
+
+.edit-user .form-control2{
+    height: 40px;
+    font-size: 15px;
+    border:none;
+    border-bottom: 2px solid #c9c9c9;
+    margin-bottom: 30px;
+}
+
+.edit-user .label-input{
+    font-size: 15px;
+    margin-top: 15px;
+    margin-right: 10px;
+    color: var(--color-main);
+    font-weight: normal;
+    text-align: right;
+    padding-left: 0px;
+} 
+
+@media (max-width: 991px) {
+    .edit-user .label-input{
+        text-align: left;
+    }
+}
+select.form-control2:not([size]):not([multiple]) {
+    height: 50px;
+}
+
+
+.form-control2:focus {
+    border:none !important;
+    border-bottom: 2px solid var(--color-main) !important;
+    box-shadow: none;
+}
+
+.focus-input {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    margin-left: 15px;
+}
+.focus-input::after {
+    font-size: 15px;
+    color: #999;
+    line-height: 1.2;
+    content: attr(data-placeholder);
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 16px;
+    left: 0;
+    -webkit-transition: all .4s;
+    -o-transition: all .4s;
+    -moz-transition: all .4s;
+    transition: all .4s;
+}
+.input:focus + .focus-input::after {
+    top: -15px;
+    font-size: 13px;
+    color: var(--color-main);
+}
+.has-val.input + .focus-input::after {
+    top: -15px;
+    font-size: 13px;
+}
+
+.btn:active:focus, .btn:focus {
+    outline: none;
+}
+.edit-user img{
+    margin-top: 10px;
+    margin-left: 10px;
+    border:none;
+}
+
+@media (max-width: 1200px) {
+    .edit-user img{
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .edit-user img{
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .edit-user img{
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 992px) {
+    .edit-user img{
+        margin-top: 40px;
+    }
+}
+.edit-user .card-body button{
+    font-size: 15px;
+    border-radius: 2px;
+    padding: 5px;
+    padding-right: 16px;
+    padding-left: 16px;
+    margin-right: 15px;
+    margin-top: 30px;
+}
+.edit-user .choose-image:hover{
+    border: 2px solid var(--color-main);
+}
+
+
+.edit-user .btn-list{
+    background-color: var(--color-main);
+    color: white;
+    border-radius: 2px;
+    font-size: 15px;
+}
+
+
+
+input[type=file]:focus, input[type=checkbox]:focus, input[type=radio]:focus{
+    outline: none;
+}
+
+.edit-user .choose-image{
+    display: inline-block;
+    background-color: white;
+    color: #6c757d;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 7px;
+    height: 40px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-top: 1rem;
+    border: 2px solid #c9c9c9;
+}
+
+.edit-user .choose-image:hover{
+    border: 2px solid var(--color-main);
+}
+
+.edit-user .btn-default{
+    font-size: 15px;
+    border: none;
+    border-bottom: 2px solid #c9c9c9;
+    margin-top: 8px;
+}
+.caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px dashed;
+    border-top: 4px solid\9;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+
+.bootstrap-select.btn-group .dropdown-toggle .caret {
+    height: 20px;
+    width: 20px;
+    border: none;
+    font-family: 'Glyphicons Halflings';
+    font-size: 12px;;
+    font-weight: lighter;
+    color:#c9c9c9;
+    top: 30%;
+    left: 90%;
+    cursor: pointer;
+}
+
+.bootstrap-select.btn-group .dropdown-toggle .caret:hover {
+    color:var(--color-main);
+}
+
+.bootstrap-select.btn-group .dropdown-toggle .caret:before {
+    content: "\e114";
+}
+.dropdown-toggle::after{
+    display: none !important;
+}
+.edit-user .btn-default:hover{
+    box-shadow: none !important;
+    background-color: #fff;
+    border: none;
+    border-bottom: 2px solid #c9c9c9;
+
+}
+.edit-user .btn-default:focus {
+    box-shadow: none !important;
+    background-color: #fff;
+    border: none;
+    border-bottom: 2px solid var(--color-main);
+    cursor:pointer;
+}
+.edit-user li a{
+    transition: all .3s;
+    font-size: 15px;
+    padding: 10px;
+}
+.edit-user li a:hover{
+    cursor:text;
+    background-color: var(--color-second);
+}
+.edit-user .bootstrap-select.btn-group .no-results{
+    margin-top: 10px;
+    font-size: 15px;
+    background-color: #fff;
+}
+.edit-user .dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover{
+    color: white;
+    background-color: var(--color-main);
+}
+.edit-user .bootstrap-select .dropdown-toggle:focus {
+    outline: none!important; 
+    outline: none !important; 
+    outline-offset: none !important; 
+}
+.edit-user.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open>.dropdown-toggle.btn-default.focus, .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover{
+    background-color: #fff;
+    border: none;
+    border-bottom: 2px solid var(--color-main);
+}
+.edit-user .btn-default.active, .btn-default:active, .open>.dropdown-toggle.btn-default {
+    color: #495057;
+    background-color: #fff;
+    border: none;
+    border-bottom: 2px solid var(--color-main);
+}
+.bootstrap-select.btn-group .dropdown-toggle .filter-option{
+    margin-bottom: 8px;
+}
+.bootstrap-select.btn-group .dropdown-menu li:focus-visible {
+    outline: none !important;
+}
+.dropdown-menu{
+    box-shadow: 0 1rem 1rem rgb(0 0 0 / 8%);
+    background: #fff;
+}
+.btn-group.open .dropdown-toggle {
+    box-shadow: none;
+}
+
+.dropdown-menu {
+    border: 1px solid rgba(0,0,0,.1);
+    box-shadow: 0 6px 12px rgb(0 0 0 / 18%);
+    font-size: 15px;
+}
+
+.edit-user .btn-info{
+    font-size: 16px;
+    border-radius: 2px;
+}
+
+.edit-user .btn-info:hover{
+    box-shadow: 0 2px 6px 0 rgb(40 151 167 / 50%);
+}
+
+.btn:active:focus, .btn:focus {
+    outline: none;
+}
+
+.edit-user .btn-list:hover{
+    box-shadow: 0 2px 6px 0 rgb(40 151 167 / 50%);
+}
+
+
+.edit-user .bootstrap-select.btn-group .dropdown-toggle .filter-option {
+    margin-bottom: 8px;
+    color: #6c757d;
+}
+.bootstrap-select.btn-group[class*=col-] .dropdown-toggle{
+    padding-left: 5px;
+    margin-top: 8px;
+    margin-bottom: 30px;
+
+}
+.edit-user .dropdown-menu{
+    margin-top: 50px;
+    transform:none !important;
+}
+.edit-user .dropdown-menu.show{
+    top: 30px;
+    transition: all 1s;
+}
+.edit-user .btn-default {
+    background-color: transparent;
+}
+.edit-user .btn-light:not(:disabled):not(.disabled).active, .btn-light:not(:disabled):not(.disabled):active, .show>.btn-light.dropdown-toggle{
+    background-color: transparent;
+    border-color: none;
+}
+.edit-user .dropdown-item.active, .dropdown-item:active{
+    background-color: var(--color-main);
+}
+.bootstrap-select.btn-group .dropdown-menu a.dropdown-item {
+    height: 40px;
+}
+
+.edit-user .dropdown-item:focus, .dropdown-item:hover{
+    background-color: var(--color-second);
+    /* color :  black; */
+}
+.bootstrap-select.btn-group>.dropdown-toggle{
+    height: auto;
+}
+
+
+/* Custome Radio */
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 15px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-weight: normal;
+    margin-top: 17px;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+    background-color: var(--color-second)
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+    background-color: var(--color-main)
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+    top: 6px;
+    left: 6px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+
+.edit-user .dropdown-item-inner {
+    margin-top: 6px;
+}
+
+.edit-user .bootstrap-select{
+    top: -45px;
+    color: #c9c9c9 !important;
+}
+.edit-user .filter-option-inner-inner{
+    color: #6f6f6f;
+}
+.edit-user .filter-option{
+    top: -4px !important;
+    padding-left: 5px !important;
+}
+
+.edit-user .dropdown-menu{
+    top: 14px !important;
+}

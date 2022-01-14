@@ -1,0 +1,357 @@
+
+.display-inventory-products .card{
+    height: auto;
+    margin-bottom: 20px;
+    padding-bottom: 40px;
+    font-size: 15px;
+    box-shadow: 0 1rem 1rem rgb(0 0 0 / 8%);
+}
+.display-inventory-products .card-header{
+    font-size: 20px;
+    padding:15px;
+    background-color:white;
+    margin-bottom: 15px;
+}
+
+
+.display-inventory-products .btn-list:hover{
+    box-shadow: 0 2px 6px 0  rgb(142 155 156 / 50%);
+}
+
+.display-inventory-products .btn-list{
+    background-color: var(--color-main);
+    color: white;
+    border-radius: 2px;
+    font-size: 15px;
+}
+
+
+.display-inventory-products .table .fa-exchange{
+    color: var(--color-main);
+    background-color: var(--color-second);
+    border-radius: 2px;
+    padding: 5px;
+    font-size: 15px;
+    border: 1px solid var(--color-main);
+}
+
+
+.display-inventory-products .table .fa-exchange:hover{
+    color:  var(--color-second);
+    background-color: var(--color-main);
+}
+/* Edit Button Add Customar */
+.display-inventory-products .card-header button{
+    font-size: 15px;
+}
+
+
+.display-inventory-products .card-body .icone-pdf-excel{
+    background-color: #f0f1f1;
+}
+
+.display-inventory-products .card-body .icone-pdf-excel i{
+    padding: 10px;
+    background-color: #f0f1f1;
+    margin: 0;
+    color: black;
+}
+
+.display-inventory-products .card-body .icone-pdf-excel i:hover{
+    background-color: #cecece
+}
+
+.display-inventory-products .form-control:focus{
+    border-color: var(--color-main);
+}
+.display-inventory-products .form-control{
+    height: 35px;
+}
+
+table.dataTable.dtr-inline.collapsed>tbody>tr.parent>td.dtr-control:before, table.dataTable.dtr-inline.collapsed>tbody>tr.parent>th.dtr-control:before{
+    content: "-";
+    background-color: var(--color-main) !important;
+}
+
+table.dataTable.dtr-inline.collapsed>tbody>tr>td.dtr-control:before, table.dataTable.dtr-inline.collapsed>tbody>tr>th.dtr-control:before {
+    background-color: var(--color-main) !important;
+}
+
+.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+    border: 1px solid rgb(255 255 255 / 15%) !important;
+}
+.table-info, .table-info>td, .table-info>th {
+    background-color: #eafcff52;
+}
+
+/* Edit Button Search */
+.dataTables_filter input{
+    margin-bottom: 20px;
+    padding-top: 20px; 
+    padding-bottom: 20px;
+    font-size: 14px;
+    border: #afafaf solid 1px;
+}
+
+.dataTables_filter input:focus{
+    border: var(--color-main) solid 1px;
+    box-shadow: inset 0 1px 1px rgb(0 124 160 / 10%), 0 0 20px rgb(0 124 160/ 10%);
+}
+
+
+.dataTables_length select{
+    font-size: 14px;
+    border: #afafaf solid 1px;
+} 
+
+
+.dataTables_length select:focus{
+    border: var(--color-main) solid 1px;
+    box-shadow: inset 0 1px 1px rgb(0 124 160 / 10%), 0 0 20px rgb(0 124 160/ 10%);
+}
+
+select.form-control-sm:not([size]):not([multiple]){
+    height: 40px;
+}
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: var(--color-main);
+    border-color: var(--color-main);
+}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    background-color: var(--color-main);
+    border-radius: 2px !important;
+}
+
+.pagination>li>a, .pagination>li>span {
+    color: var(--color-main);
+}
+table.table-bordered.dataTable {
+    border-right-width: 1px !important;
+}
+.display-inventory-products img{
+    height: 80px;
+    width: 100px;
+}
+
+
+.close{
+    font-size: 20px;
+}
+.display-inventory-products .input-group-text{
+    font-size: 15px;
+}
+
+@media (min-width: 100px){
+    .modal-dialog {
+        max-width: 350px !important;
+        margin: 140px auto !important;
+    }
+}
+
+.display-inventory-products .reckoning{
+    background-color: transparent;
+}
+
+.dropdown-menu.show{
+    transform: none !important;
+    will-change:unset !important;
+    top: 25px !important;
+}
+
+/* .dataTables_wrapper .col-sm-12{
+    overflow: visible !important;
+} */
+
+.display-inventory-products td, .display-inventory-products th{
+    vertical-align: middle !important;
+}
+.display-inventory-products .table  input{
+    height: 35px;
+    font-size: 15px;
+    border:none;
+    border-bottom: 2px solid #c9c9c9;
+    
+}
+
+.display-inventory-products .table  input:focus{
+    border:none;
+    border-bottom: 2px solid var(--color-main);
+}
+
+.display-inventory-products  .table  .label-input{
+    font-size: 15px;
+    margin-top: 15px;
+    margin-right: 10px;
+    color: var(--color-main);
+    font-weight: normal;
+    text-align: right;
+    padding-left: 0px;
+} 
+@media (max-width: 991px) {
+    .display-inventory-products   .table .label-input{
+        text-align: left;
+    }
+}
+
+
+.display-inventory-products .btn-default:focus {
+    box-shadow: none !important;
+    background-color: #fff;
+    border: none;
+    border-bottom: 2px solid var(--color-main);
+    cursor:pointer;
+}
+.display-inventory-products li a{
+    transition: all .3s;
+    font-size: 15px;
+    padding: 10px;
+}
+.display-inventory-products li a:hover{
+    cursor:text;
+    background-color: var(--color-second);
+}
+.display-inventory-products .bootstrap-select.btn-group .no-results{
+    margin-top: 10px;
+    font-size: 15px;
+    background-color: #fff;
+}
+.display-inventory-products .dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover{
+    color: white;
+    background-color: var(--color-main);
+}
+.display-inventory-products .bootstrap-select .dropdown-toggle:focus {
+    outline: none!important; 
+    outline: none !important; 
+    outline-offset: none !important; 
+}
+.display-inventory-products.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open>.dropdown-toggle.btn-default.focus, .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover{
+    background-color: #fff;
+    border: none;
+    border-bottom: 2px solid var(--color-main);
+}
+.display-inventory-products .btn-default.active, .btn-default:active, .open>.dropdown-toggle.btn-default {
+    color: #495057;
+    background-color: #fff;
+    border: none;
+    border-bottom: 2px solid var(--color-main);
+}
+.bootstrap-select.btn-group .dropdown-toggle .filter-option{
+    margin-bottom: 8px;
+}
+.bootstrap-select.btn-group .dropdown-menu li:focus-visible {
+    outline: none !important;
+}
+.dropdown-menu{
+    box-shadow: 0 1rem 1rem rgb(0 0 0 / 8%);
+    background: #fff;
+}
+.btn-group.open .dropdown-toggle {
+    box-shadow: none;
+}
+
+.dropdown-menu {
+    border: 1px solid rgba(0,0,0,.1);
+    box-shadow: 0 6px 12px rgb(0 0 0 / 18%);
+    font-size: 15px;
+}
+
+.display-inventory-products .btn-info{
+    font-size: 16px;
+    border-radius: 2px;
+}
+
+.display-inventory-products .btn-info:hover{
+    box-shadow: 0 2px 6px 0 rgb(40 151 167 / 50%);
+}
+
+.btn:active:focus, .btn:focus {
+    outline: none;
+}
+
+.display-inventory-products .btn-list:hover{
+    box-shadow: 0 2px 6px 0 rgb(40 151 167 / 50%);
+}
+
+
+.display-inventory-products .bootstrap-select.btn-group .dropdown-toggle .filter-option {
+    margin-bottom: 8px;
+    color: #6c757d;
+}
+.bootstrap-select.btn-group[class*=col-] .dropdown-toggle{
+    padding-left: 5px;
+    margin-top: 8px;
+    margin-bottom: 30px;
+
+}
+.display-inventory-products .dropdown-menu{
+    transform:none !important;
+}
+.display-inventory-products .dropdown-menu.show{
+    top: 30px;
+    transition: all 1s;
+}
+.display-inventory-products .btn-default {
+    background-color: transparent;
+}
+.display-inventory-products .btn-light:not(:disabled):not(.disabled).active, .btn-light:not(:disabled):not(.disabled):active, .show>.btn-light.dropdown-toggle{
+    background-color: transparent;
+    border-color: none;
+}
+.display-inventory-products .dropdown-item.active, .dropdown-item:active{
+    background-color: var(--color-main);
+}
+.bootstrap-select.btn-group .dropdown-menu a.dropdown-item {
+    height: 40px;
+}
+
+.display-inventory-products .dropdown-item:focus, .dropdown-item:hover{
+    background-color: var(--color-second);
+    /* color :  black; */
+}
+.bootstrap-select.btn-group>.dropdown-toggle{
+    height: auto;
+}
+
+.display-inventory-products .dropdown-item-inner {
+    margin-top: 6px;
+}
+
+.display-inventory-products .bootstrap-select{
+    top: -10px;
+    color: #c9c9c9 !important;
+}
+.display-inventory-products .filter-option-inner-inner{
+    color: #6f6f6f;
+}
+.display-inventory-products .filter-option{
+    top: -4px !important;
+    padding-left: 5px !important;
+}
+
+.display-inventory-products .dropdown-menu{
+    top: 30px !important;
+}
+
+
+
+.display-inventory-products .table .form{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.display-inventory-products .table .label-input{
+    margin-left: 10px;
+}
+
+.display-inventory-products .add{
+    margin-top: 40px;
+    /* margin-right: 10px; */
+    margin-bottom: 10px;
+}
+
+.display-inventory-products .form-row{
+    margin-top: 10px;
+}

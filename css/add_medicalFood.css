@@ -1,0 +1,462 @@
+
+.add-medicalFood .card{
+    height: auto;
+    margin-bottom: 20px;
+    padding-bottom: 40px;
+    box-shadow: 0 1rem 1rem rgb(0 0 0 / 8%);
+}
+.add-medicalFood .card-header{
+    font-size: 20px;
+    padding:15px;
+    background-color:white;
+    margin-bottom: 10px;
+}
+.add-medicalFood .col{
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.add-medicalFood input{
+    height: 50px;
+    font-size: 15px;
+    border:none;
+    border-bottom: 2px solid #c9c9c9;
+    margin-bottom: 30px;
+}
+
+.add-medicalFood .label-input{
+    font-size: 15px;
+    margin-top: 15px;
+    margin-right: 10px;
+    color: var(--color-main);
+    font-weight: normal;
+    text-align: right;
+}
+
+@media (max-width: 991px) {
+    .add-medicalFood .label-input{
+        text-align: left;
+    }
+}
+select.form-control:not([size]):not([multiple]) {
+    height: 50px;
+}
+
+
+.form-control:focus {
+    border-bottom: 2px solid var(--color-main);
+    box-shadow: none;
+}
+.form-control{
+    border-bottom: 2px solid var(--color-main);
+    box-shadow: none;
+}
+.focus-input {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    margin-left: 15px;
+}
+.focus-input::after {
+    font-size: 15px;
+    color: #999;
+    line-height: 1.2;
+    content: attr(data-placeholder);
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 16px;
+    left: 0;
+    -webkit-transition: all .4s;
+    -o-transition: all .4s;
+    -moz-transition: all .4s;
+    transition: all .4s;
+}
+.input:focus + .focus-input::after {
+    top: -15px;
+    font-size: 13px;
+    color: var(--color-main);
+}
+.has-val.input + .focus-input::after {
+    top: -15px;
+    font-size: 13px;
+}
+
+.btn:active:focus, .btn:focus {
+    outline: none;
+}
+.add-medicalFood img{
+    margin-top: 10px;
+    margin-left: 10px;
+    border:none;
+}
+
+@media (max-width: 1200px) {
+    .add-medicalFood img{
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .add-medicalFood img{
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .add-medicalFood img{
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 992px) {
+    .add-medicalFood img{
+        margin-top: 40px;
+    }
+}
+.add-medicalFood .card-body button{
+    font-size: 15px;
+    border-radius: 2px;
+    padding: 5px;
+    padding-right: 16px;
+    padding-left: 16px;
+    margin-right: 15px;
+    margin-top: 30px;
+}
+.add-medicalFood .choose-image:hover{
+    border: 2px solid var(--color-main);
+}
+
+input[type=file]:focus, input[type=checkbox]:focus, input[type=radio]:focus{
+    outline: none;
+}
+
+.add-medicalFood .choose-image{
+    display: inline-block;
+    background-color: white;
+    color: #6c757d;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 7px;
+    height: 40px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-top: 1rem;
+    border: 2px solid #c9c9c9;
+}
+
+.add-medicalFood .choose-image:hover{
+    border: 2px solid var(--color-main);
+}
+.add-medicalFood .btn-list:hover{
+    box-shadow: 0 2px 6px 0  rgb(142 155 156 / 50%);
+}
+
+.add-medicalFood .btn-list{
+    background-color: var(--color-main);
+    color: white;
+    border-radius: 2px;
+    font-size: 15px;
+}
+
+#file-chosen{
+    margin-top:20px;
+    font-size: 15px;
+}
+.custom-select-wrapper {
+    position: relative;
+    user-select: none;
+    width: 100%;
+}
+.custom-select2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-width: 0 2px 0 2px;
+    border: none;
+}
+.custom-select__trigger {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5px;
+    font-size: 15px;
+    font-weight: normal;
+    color: #6c757d;
+    height: 50px;
+    line-height: 50px;
+    background: #ffffff;
+    cursor: pointer;
+    border-width: 2px 0 2px 0;
+    border: none;
+    border-bottom: 2px solid #c9c9c9;
+    margin-bottom: 30px;
+}
+.custom-options {
+    position: absolute;
+    display: block;
+    top: 100%;
+    left: 0;
+    right: 0;
+    border: 1px solid #effdff;
+    box-shadow: 0 1rem 1rem rgb(0 0 0 / 8%);
+    background: #fff;
+    transition: all 0.5s;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    z-index: 2;
+}
+.custom-select2.open .custom-options {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+    margin-top: -30px;
+}
+.custom-option {
+    position: relative;
+    display: block;
+    padding: 0 10px 0 10px;
+    font-size: 15px;
+    color: #6c757d;
+    line-height: 50px;
+    cursor: pointer;
+    transition: all .3s;
+}
+.custom-option:hover {
+    cursor: pointer;
+    background-color: var(--color-second);
+}
+.custom-option.selected {
+    color: #ffffff;
+    background-color: var(--color-main)
+}
+
+
+.arrow {
+    position: relative;
+    height: 10px;
+    width: 10px;
+}
+.arrow::before, .arrow::after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    width: 0.15rem;
+    height: 100%;
+    transition: all .3s;
+}
+.arrow::before {
+    left: -3px;
+    transform: rotate(45deg);
+    background-color: #c9c9c9;
+}
+.arrow::after {
+    left: 3px;
+    transform: rotate(-45deg);
+    background-color: #c9c9c9;
+}
+.open .arrow::before {
+    left: -3px;
+    transform: rotate(-45deg);
+    background-color: var(--color-main);
+}
+.open .arrow::after {
+
+    transform: rotate(45deg);
+    background-color: var(--color-main);
+}
+.open .custom-select__trigger {
+    border-bottom: 2px solid var(--color-main);
+}
+
+.custom-select{
+    background: none;
+}
+
+
+
+
+/* End Page Add Medicine */
+
+
+.datepicker {
+    border-radius: 0;
+    padding: 0;
+}
+.datepicker-days table thead, .datepicker-days table tbody, .datepicker-days table tfoot {
+    padding: 10px;
+    display: list-item;
+    font-size: 14px;
+}
+.datepicker-days table thead, .datepicker-months table thead, .datepicker-years table thead, .datepicker-decades table thead, .datepicker-centuries table thead {
+    background: var(--color-main);
+    color: #ffffff;
+    border-radius: 0;
+}
+.datepicker-days table thead tr:nth-child(2n+0) td, .datepicker-days table thead tr:nth-child(2n+0) th {
+    border-radius: 3px;
+}
+.datepicker-days table thead tr:nth-child(3n+0) {
+    text-transform: uppercase;
+    font-weight: 300 !important;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.table-condensed > tbody > tr > td, .table-condensed > tbody > tr > th, .table-condensed > tfoot > tr > td, .table-condensed > tfoot > tr > th, .table-condensed > thead > tr > td, .table-condensed > thead > tr > th {
+    padding: 11px 13px;
+}
+.datepicker-months table thead td, .datepicker-months table thead th, .datepicker-years table thead td, .datepicker-years table thead th, .datepicker-decades table thead td, .datepicker-decades table thead th, .datepicker-centuries table thead td, .datepicker-centuries table thead th {
+    border-radius: 0;
+}
+.datepicker td, .datepicker th {
+    border-radius: 50%;
+    padding: 0 12px;
+}
+.datepicker-days table thead, .datepicker-months table thead, .datepicker-years table thead, .datepicker-decades table thead, .datepicker-centuries table thead {
+    background: var(--color-main);
+    color: #ffffff;
+    border-radius: 0;
+}
+.datepicker table tr td.active, .datepicker table tr td.active:hover, .datepicker table tr td.active.disabled, .datepicker table tr td.active.disabled:hover {
+    background-image: none;
+}
+.datepicker .prev, .datepicker .next {
+    color: rgba(255, 255, 255, 0.5);
+    transition: 0.3s;
+    width: 37px;
+    height: 37px;
+}
+.datepicker .prev:hover, .datepicker .next:hover {
+    background: transparent;
+    color: rgba(255, 255, 255, 0.99);
+    font-size: 21px;
+}
+.datepicker .datepicker-switch {
+    font-size: 24px;
+    font-weight: 400;
+}
+.datepicker .datepicker-switch:hover {
+    color: rgba(255, 255, 255, 0.7);
+    background: transparent;
+}
+.datepicker table tr td span {
+    border-radius: 2px;
+    margin: 3%;
+    width: 27%;
+}
+.datepicker table tr td span.active, .datepicker table tr td span.active:hover, .datepicker table tr td span.active.disabled, .datepicker table tr td span.active.disabled:hover {
+    background-color: var(--color-main);
+    background-image: none;
+}
+.dropdown-menu {
+    border: 1px solid rgba(0,0,0,.1);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+.datepicker-dropdown.datepicker-orient-top:before {
+    border-top: 7px solid rgba(0,0,0,.1);
+    
+}
+
+.datepicker table tr td.active:hover, .datepicker table tr td.active:hover:hover, .datepicker table tr td.active.disabled:hover, .datepicker table tr td.active.disabled:hover:hover, .datepicker table tr td.active:active, .datepicker table tr td.active:hover:active, .datepicker table tr td.active.disabled:active, .datepicker table tr td.active.disabled:hover:active, .datepicker table tr td.active.active, .datepicker table tr td.active:hover.active, .datepicker table tr td.active.disabled.active, .datepicker table tr td.active.disabled:hover.active, .datepicker table tr td.active.disabled, .datepicker table tr td.active:hover.disabled, .datepicker table tr td.active.disabled.disabled, .datepicker table tr td.active.disabled:hover.disabled, .datepicker table tr td.active[disabled], .datepicker table tr td.active:hover[disabled], .datepicker table tr td.active.disabled[disabled], .datepicker table tr td.active.disabled:hover[disabled] {
+    background-color: var(--color-main);
+    
+}
+
+.datepicker table tr td span.active:hover, .datepicker table tr td span.active:hover:hover, .datepicker table tr td span.active.disabled:hover, .datepicker table tr td span.active.disabled:hover:hover, .datepicker table tr td span.active:active, .datepicker table tr td span.active:hover:active, .datepicker table tr td span.active.disabled:active, .datepicker table tr td span.active.disabled:hover:active, .datepicker table tr td span.active.active, .datepicker table tr td span.active:hover.active, .datepicker table tr td span.active.disabled.active, .datepicker table tr td span.active.disabled:hover.active, .datepicker table tr td span.active.disabled, .datepicker table tr td span.active:hover.disabled, .datepicker table tr td span.active.disabled.disabled, .datepicker table tr td span.active.disabled:hover.disabled, .datepicker table tr td span.active[disabled], .datepicker table tr td span.active:hover[disabled], .datepicker table tr td span.active.disabled[disabled], .datepicker table tr td span.active.disabled:hover[disabled] {
+    background-color: var(--color-main);
+    
+}
+.datepicker table tr td span:hover, .datepicker table tr td span.focused {
+    background: var(--color-main);
+    color:white;
+}
+.datepicker .datepicker-months .month{
+    font-size: 14px;
+}
+.datepicker .prev, .datepicker .next{
+    font-size: 25px;
+}
+.datepicker .prev:hover, .datepicker .next:hover {
+    font-size: 25px;
+}
+.datepicker .datepicker-switch {
+    color: rgba(255, 255, 255, 0.7);
+    background: transparent;
+}
+.datepicker .datepicker-switch:hover {
+    color: white;
+}
+
+
+
+/* Custome Radio */
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 15px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-weight: normal;
+    margin-top: 17px;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+    background-color: var(--color-second)
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+    background-color: var(--color-main)
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+    top: 6px;
+    left: 6px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}

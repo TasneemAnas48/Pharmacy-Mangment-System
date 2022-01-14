@@ -1,0 +1,87 @@
+
+
+.show-details-nido .card{
+    height: auto;
+    margin-bottom: 20px;
+    padding-bottom: 40px;
+    font-size: 15px;
+    box-shadow: 0 1rem 1rem rgb(0 0 0 / 8%);
+}
+.show-details-nido .card-header{
+    font-size: 20px;
+    padding:15px;
+    background-color:white;
+    margin-bottom: 15px;
+}
+
+
+.show-details-nido .btn-list:hover{
+    box-shadow: 0 2px 6px 0  rgb(142 155 156 / 50%);
+}
+
+.show-details-nido .btn-list{
+    background-color: var(--color-main);
+    color: white;
+    border-radius: 2px;
+    font-size: 15px;
+}
+
+
+.show-details-nido .card-header button {
+    font-size: 15px;
+}
+
+
+.show-details-nido .form-control {
+    width: auto;
+}
+
+.show-details-nido img{
+    height: 360px;
+    width: 460px;
+    margin-left: 150px;
+}
+
+.show-details-nido label{
+    font-size: 16px;
+}
+
+.show-details-nido .row-details{
+
+    transition: all 0.3s ease-in-out;
+}
+
+.show-details-nido .row-details:hover{
+    color: var(--color-main);
+    margin-left: 18px;
+    transition: all 0.3s ease-in-out;
+}
+.show-details-nido .value{
+    font-weight: normal;
+    font-size: 16px;
+}
+
+
+@media (max-width: 1150px) {
+    .show-details-nido img{
+        height: 300px;
+        width: 400px;
+        margin-left: 100px;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 1050px) {
+    .show-details-nido img{
+        height: 260px;
+        width: 300px;
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 900px) {
+    .show-details-nido img{
+        margin-left: 20px;
+    }
+}

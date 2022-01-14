@@ -1,0 +1,263 @@
+
+.medicine-grid .card-body-grid{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.medicine-grid .card{
+    height: auto;
+    margin-bottom: 20px;
+    padding-bottom: 40px;
+    font-size: 15px;
+    box-shadow: 0 1rem 1rem rgb(0 0 0 / 8%);
+}
+.medicine-grid .card-header{
+    font-size: 20px;
+    padding:15px;
+    background-color:white;
+    margin-bottom: 15px;
+}
+
+
+.medicine-grid .btn-list:hover{
+    box-shadow: 0 2px 6px 0  rgb(142 155 156 / 50%);
+}
+
+.medicine-grid .btn-list{
+    background-color: var(--color-main);
+    color: white;
+    border-radius: 2px;
+    font-size: 15px;
+}
+
+
+/* Edit Button Add Customar */
+.medicine-grid .card-header button{
+    font-size: 15px;
+}
+
+
+.medicine-grid .card-body .icone-pdf-excel{
+    background-color: #f0f1f1;
+}
+
+.medicine-grid .card-body .icone-pdf-excel i{
+    padding: 10px;
+    background-color: #f0f1f1;
+    margin: 0;
+    color: black;
+}
+
+.medicine-grid .card-body .icone-pdf-excel i:hover{
+    background-color: #cecece
+}
+.medicine-grid .form-control {
+    width: auto;
+}
+
+
+.medicine-grid img{
+    height: 180px;
+    width: 200px;
+}
+
+.medicine-grid .row{
+    padding-top: 30px;
+    padding-bottom: 23px;
+}
+
+.medicine-grid .product{
+    margin-bottom: 30px;
+    border-radius: 0;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: none;
+    border: 1px solid rgb(245, 245, 245);
+    
+}
+
+.medicine-grid p{
+    padding-bottom: 15px;
+    font-size: 17px;
+}
+
+.medicine-grid .card-footer{
+    padding-top: 20px;
+    background-color: white;
+    margin-top: 15px;
+}
+
+.medicine-grid .product:hover {
+    box-shadow: 1px 0px 20px rgba(70, 70, 70, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+
+.medicine-grid .show-detail{
+    font-size:15px;
+    color: #808080;
+    text-decoration: none;
+}
+.medicine-grid .show-detail:hover{
+    text-decoration: none;
+    color: var(--color-main);
+}
+
+.medicine-grid .product{
+    height: 350px;
+}
+
+
+.medicine-grid .carousel-control-prev .fa-angle-left,.medicine-grid .carousel-control-next  .fa-angle-right{
+    color: #e9ecef;
+    font-size: 30px;
+}
+.medicine-grid .carousel-control-prev .fa-angle-left:hover,.medicine-grid .carousel-control-next  .fa-angle-right:hover{
+    color: #a3a3a3;
+}
+
+
+.medicine-grid .fa-plus{
+    color: #a3a3a3;
+    background-color: #e9ecef;
+    border-radius: 2px;
+    padding: 6px;
+    font-size: 15px;
+    cursor: pointer;
+  
+}
+
+.medicine-grid .fa-minus{
+    color: #a3a3a3;
+    background-color: #e9ecef;
+    border-radius: 2px;
+    padding: 6px;
+    font-size: 15px;
+    cursor: pointer;
+   
+}
+.medicine-grid .fa-plus:hover{
+    color: #e9ecef;
+    background-color: #a3a3a3;
+}
+.medicine-grid .fa-minus:hover{
+    color: #e9ecef;
+    background-color: #a3a3a3;
+}
+
+.medicine-grid .label-price{
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+.medicine-grid .label-batch{
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+/*
+.badge {
+    border-radius: 50%;
+    width: 28px;
+    height: 25px;
+    display: block;
+    position: absolute;
+    background: var(--color-main);
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 2px;
+    right: 23px;
+    transition: all .3s;
+    font-weight: normal;
+    font-size: 13px;
+    padding-top: 4px;
+}
+.badge .hidden {
+    visibility: hidden;
+}
+
+.badge .show {
+    visibility: visible;
+}*/
+
+/* Scroll To Top Button */
+html {
+    scroll-behavior: smooth;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 11px;
+    right: 22px;
+    z-index: 9999;
+    border: 2px solid var(--color-main);
+    outline: none;
+    background-color: transparent;
+    color: var(--color-main);
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 15px;
+    padding: 6px 10px;
+}
+
+#myBtn:hover {
+    background-color: var(--color-main); 
+    color: white;
+}
+
+
+.medicine-grid .label-search{
+    font-weight: normal;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.medicine-grid .input-search{
+    height: 40px;
+    border: 1px solid #afafaf;
+    font-size: 14px;
+    box-shadow: none;
+}
+.medicine-grid .input-search:focus{
+    border: 1px solid  var(--color-main); 
+    box-shadow: 0 1px 3px 0 rgb(40 151 167 / 19%) !important;
+}
+.bootbox-body{
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+.bootbox-close-button {
+    font-size: 27px;
+}
+.bootbox-accept{
+    background-color: var(--color-main) !important;
+    font-size: 15px;
+    border-color: var(--color-main) !important;
+}
+.modal-content{
+    width: 400px;
+    margin-top: 150px
+}
+
+
+
+.medicine-grid .label-quantity{
+    width: 30px;
+    text-align: center;
+    border: none;
+}
+.medicine-grid .name-product {
+    margin-top: auto;
+}
+
+.medicine-grid .carousel-control-prev, .carousel-control-next{
+    width: 7%;
+}
+
+.medicine-grid .carousel-item .card-header{
+    padding: 5px;
+    padding-bottom: 10px
+}

@@ -1,0 +1,100 @@
+
+.cosmetics-grid .card{
+    height: auto;
+    margin-bottom: 20px;
+    padding-bottom: 40px;
+    font-size: 15px;
+    box-shadow: 0 1rem 1rem rgb(0 0 0 / 8%);
+}
+.cosmetics-grid .card-header{
+    font-size: 20px;
+    padding:15px;
+    background-color:white;
+    margin-bottom: 15px;
+}
+
+
+.cosmetics-grid .btn-list:hover{
+    box-shadow: 0 2px 6px 0  rgb(142 155 156 / 50%);
+}
+
+.cosmetics-grid .btn-list{
+    background-color: var(--color-main);
+    color: white;
+    border-radius: 2px;
+    font-size: 15px;
+}
+
+
+/* Edit Button Add Customar */
+.cosmetics-grid .card-header button{
+    font-size: 15px;
+}
+
+
+.cosmetics-grid .card-body .icone-pdf-excel{
+    background-color: #f0f1f1;
+}
+
+.cosmetics-grid .card-body .icone-pdf-excel i{
+    padding: 10px;
+    background-color: #f0f1f1;
+    margin: 0;
+    color: black;
+}
+
+.cosmetics-grid .card-body .icone-pdf-excel i:hover{
+    background-color: #cecece
+}
+.cosmetics-grid .form-control {
+    width: auto;
+}
+
+
+.cosmetics-grid img{
+    height: 180px;
+    width: 200px;
+}
+
+.cosmetics-grid .row{
+    padding-top: 30px;
+    padding-bottom: 23px;
+}
+
+.cosmetics-grid .product{
+    margin-bottom: 30px;
+    border-radius: 0;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: none;
+    border: 1px solid rgb(245, 245, 245);
+    
+}
+
+.cosmetics-grid p{
+    font-size: 17px;
+}
+
+.cosmetics-grid .card-footer{
+    padding-top: 20px;
+    background-color: white;
+}
+
+.cosmetics-grid .product:hover {
+    box-shadow: 1px 0px 20px rgba(70, 70, 70, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+
+.cosmetics-grid .show-detail{
+    font-size:15px;
+    color: #808080;
+    text-decoration: none;
+}
+.cosmetics-grid .show-detail:hover{
+    text-decoration: none;
+    color: var(--color-main);
+}
+
+.cosmetics-grid .product{
+    height: 350px;
+}

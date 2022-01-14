@@ -1,0 +1,95 @@
+
+.show-details-setamol .card{
+    height: auto;
+    margin-bottom: 20px;
+    padding-bottom: 40px;
+    font-size: 15px;
+    box-shadow: 0 1rem 1rem rgb(0 0 0 / 8%);
+}
+.show-details-setamol .card-header{
+    font-size: 20px;
+    padding:15px;
+    background-color:white;
+    margin-bottom: 15px;
+}
+.show-details-setamol .card-header button {
+    font-size: 15px;
+}
+
+.show-details-setamol .btn-list:hover{
+    box-shadow: 0 2px 6px 0  rgb(142 155 156 / 50%);
+}
+
+.show-details-setamol .btn-list{
+    background-color: var(--color-main);
+    color: white;
+    border-radius: 2px;
+    font-size: 15px;
+}
+
+
+.show-details-setamol .form-control {
+    width: auto;
+}
+
+
+.show-details-setamol label{
+    font-size: 16px;
+}
+
+.show-details-setamol .row-details{
+
+    transition: all 0.3s ease-in-out;
+}
+
+.show-details-setamol .row-details:hover{
+    color: var(--color-main);
+    margin-left: 18px;
+    transition: all 0.3s ease-in-out;
+}
+.show-details-setamol .value{
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.show-details-setamol img{
+    height: 360px;
+    width: 460px;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+
+@media (max-width: 1150px) {
+    .show-details-setamol img{
+        margin-top: 70px;
+        height: 300px;
+        width: 400px;
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 1050px) {
+    .show-details-setamol img{
+        margin-top: 100px;
+        height: 260px;
+        width: 350px;
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 800px) {
+    .show-details-setamol img{
+        margin-top: 100px;
+        height: 200px;
+        width: 250px;
+    }
+}
+
+
+/* @media (max-width: 992px) {
+    .show-details-setamol img{
+        width: ;
+        height: ;
+    }
+} */

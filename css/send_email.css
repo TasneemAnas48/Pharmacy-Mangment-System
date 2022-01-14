@@ -1,0 +1,169 @@
+
+
+.send-email .card{
+    height: auto;
+    margin-bottom: 20px;
+    padding-bottom: 40px;
+    font-size: 15px;
+    box-shadow: 0 1rem 1rem rgb(0 0 0 / 8%);
+}
+
+.send-email  .card-header{
+    font-size: 20px;
+    padding:15px;
+    background-color:white;
+    margin-bottom: 15px;
+}
+
+.send-email .btn-list:hover{
+    box-shadow: 0 2px 6px 0  rgb(142 155 156 / 50%);
+}
+
+.send-email .btn-list{
+    background-color: var(--color-main);
+    color: white;
+    border-radius: 2px;
+    font-size: 17px;
+    width: 100%;
+    height: 40px;
+}
+
+
+.send-email  .add-up{
+    color: #fff;
+    background-color: var(--color-main);
+    border-color: var(--color-main);
+}
+
+.send-email .form-control{
+    font-size: 15px;
+    box-shadow: none;
+    margin-bottom: 15px;
+    height: 40px;
+}
+
+.send-email .form-row .form-control{
+    font-size: 15px;
+    box-shadow: none;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    padding: 0 25px 0 35px;
+}
+
+
+.send-email .toggle3{
+    padding: 10px 25px 0 35px;
+}
+
+.send-email .toggle4{
+    padding: 0px 25px 0 35px;
+}
+
+.send-email .form-control:focus{
+    border-color: var(--color-main);
+}
+
+.send-email .fa-user.focus1{
+    color: var(--color-main);
+}
+
+.send-email .fa-envelope.focus2{
+    color: var(--color-main);
+}
+
+.send-email .fa-comment.focus3{
+    color: var(--color-main);
+}
+
+.send-email .fa-book.focus4{
+    color: var(--color-main);
+}
+
+
+.send-email .choose-image:hover{
+    border: 2px solid var(--color-main);
+}
+
+.send-email .choose-image{
+    display: inline-block;
+    background-color: white;
+    color: #6c757d;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 8px;
+    height: 40px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    border: 1px solid #c9c9c9;
+    font-size: 15px;
+    font-weight: normal;
+    margin-right: 10px;
+    width: 100%;
+}
+
+.send-email .choose-image:hover{
+    border: 1px solid var(--color-main);
+}
+
+.send-email textarea{
+    height: 120px !important;
+}
+
+.send-email .label-input-icon {
+    font-size: 17px;
+    color: #999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 45px;
+    height: 100%;
+    top: 0;
+    left: 2px;
+    margin-top: 2px;
+}
+
+
+.send-email .label-input-icon2{
+    font-size: 17px;
+    color: #999;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    position: absolute;
+    width: 45px;
+    height: 75%;
+    top: 0;
+    left:11px;
+}
+
+
+.send-email .label-input-icon3{
+    font-size: 17px;
+    color: #999;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    position: absolute;
+    width: 45px;
+    height: 45%;
+    top: 0;
+    left:11px;
+}
+.send-email .image{
+    width: 350px;
+    height: 300px;
+    margin-right: -150px;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+@media (max-width: 1300px) {
+    .send-email .image{
+        width: 300px;
+        height: 250px;
+        margin-right: -250px;
+    }
+}

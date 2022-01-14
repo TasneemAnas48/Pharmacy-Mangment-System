@@ -1,0 +1,410 @@
+
+.received-warehouse-order-list .card{
+    height: auto;
+    margin-bottom: 20px;
+    padding-bottom: 40px;
+    font-size: 15px;
+    box-shadow: 0 1rem 1rem rgb(0 0 0 / 8%);
+}
+.received-warehouse-order-list .card-header{
+    font-size: 20px;
+    padding:15px;
+    background-color:white;
+    margin-bottom: 15px;
+}
+
+.received-warehouse-order-list .card{
+    height: auto;
+    margin-bottom: 20px;
+    padding-bottom: 40px;
+    font-size: 15px;
+    box-shadow: 0 1rem 1rem rgb(0 0 0 / 8%);
+}
+.received-warehouse-order-list .card-header{
+    font-size: 20px;
+    padding:15px;
+    background-color:white;
+    margin-bottom: 15px;
+}
+
+.received-warehouse-order-list  .btn-list:hover{
+    box-shadow: 0 2px 6px 0  rgb(142 155 156 / 50%);
+}
+
+.received-warehouse-order-list  .btn-list{
+    background-color: var(--color-main);
+    color: white;
+    border-radius: 2px;
+    font-size: 15px;
+}
+
+
+/* Edit Icone */
+.received-warehouse-order-list .table .fa-edit{
+    color:  #28a745;
+    background-color: #e7ffec;
+    border-radius: 2px;
+    padding: 4px;
+    font-size: 13px;
+    margin-left: 15px;
+    border: 1px solid #28a745;
+    margin-top: 5px;
+
+
+}
+
+
+/* Delete Icone */
+.received-warehouse-order-list .table .fa-trash{
+    color: #dc3545;
+    background-color: #ffe3e6;
+    border-radius: 2px;
+    padding: 4px;
+    font-size: 13px;
+    margin-left: 7px;
+    border: 1px solid #dc3545;
+    margin-top: 5px;
+}
+
+
+
+/* Return Icone */
+.received-warehouse-order-list .table .fa-retweet{
+    color: #ff8e24;
+    background-color: #ffeedf;
+    border-radius: 2px;
+    padding: 4px 3px 4px 3px;
+    font-size: 13px;
+    border: 1px solid #ff8e24;
+    margin-top: 5px;
+    margin-left: 7px;
+}
+
+
+
+/* Return Icone Hover*/
+.received-warehouse-order-list .table .fa-retweet:hover{
+    color:  #ffeedf;
+    background-color:  #ff8e24;
+}
+
+
+
+
+/* Edit Icone Hover*/
+.received-warehouse-order-list .table .fa-edit:hover{
+    color:  #e7ffec;
+    background-color: #28a745;
+}
+
+
+/* Delete Icone Hover */
+.received-warehouse-order-list .table .fa-trash:hover{
+    color: #ffe3e6;
+    background-color: #dc3545;
+}
+/* Edit Button Add Customar */
+.received-warehouse-order-list .card-header button{
+    font-size: 15px;
+}
+
+
+.received-warehouse-order-list .card-body .icone-pdf-excel{
+    background-color: #f0f1f1;
+}
+
+.received-warehouse-order-list .card-body .icone-pdf-excel i{
+    padding: 10px;
+    background-color: #f0f1f1;
+    margin: 0;
+    color: black;
+}
+
+.received-warehouse-order-list .card-body .icone-pdf-excel i:hover{
+    background-color: #cecece
+}
+.received-warehouse-order-list .form-control {
+    width: auto;
+}
+
+table.dataTable.dtr-inline.collapsed>tbody>tr.parent>td.dtr-control:before, table.dataTable.dtr-inline.collapsed>tbody>tr.parent>th.dtr-control:before{
+    content: "-";
+    background-color: var(--color-main) !important;
+}
+
+table.dataTable.dtr-inline.collapsed>tbody>tr>td.dtr-control:before, table.dataTable.dtr-inline.collapsed>tbody>tr>th.dtr-control:before {
+    background-color: var(--color-main) !important;
+}
+
+.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+    border: 0.1px solid #c9c9c9 !important;
+}
+.table-info, .table-info>td, .table-info>th {
+    background-color: #eafcff52;
+}
+
+.table.dataTable {
+    border-collapse:collapse !important;
+}
+/* Edit Button Search */
+.dataTables_filter input{
+    margin-bottom: 20px;
+    padding-top: 20px; 
+    padding-bottom: 20px;
+    font-size: 14px;
+    border: #afafaf solid 1px;
+}
+
+.dataTables_filter input:focus{
+    border: var(--color-main) solid 1px;
+    box-shadow: inset 0 1px 1px rgb(0 124 160 / 10%), 0 0 20px rgb(0 124 160/ 10%);
+}
+
+
+.dataTables_length select{
+    font-size: 14px;
+    border: #afafaf solid 1px;
+} 
+
+
+.dataTables_length select:focus{
+    border: var(--color-main) solid 1px;
+    box-shadow: inset 0 1px 1px rgb(0 124 160 / 10%), 0 0 20px rgb(0 124 160/ 10%);
+}
+
+select.form-control-sm:not([size]):not([multiple]){
+    height: 40px;
+}
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: var(--color-main);
+    border-color: var(--color-main);
+}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    background-color: var(--color-main);
+    border-radius: 2px !important;
+}
+
+.pagination>li>a, .pagination>li>span {
+    color: var(--color-main);
+}
+table.table-bordered.dataTable {
+    border-right-width: 1px !important;
+}
+
+
+
+.datepicker {
+    border-radius: 0;
+    padding: 0;
+}
+.datepicker-days table thead, .datepicker-days table tbody, .datepicker-days table tfoot {
+    padding: 10px;
+    display: list-item;
+    font-size: 14px;
+}
+.datepicker-days table thead, .datepicker-months table thead, .datepicker-years table thead, .datepicker-decades table thead, .datepicker-centuries table thead {
+    background: var(--color-main);
+    color: #ffffff;
+    border-radius: 0;
+}
+.datepicker-days table thead tr:nth-child(2n+0) td, .datepicker-days table thead tr:nth-child(2n+0) th {
+    border-radius: 3px;
+}
+.datepicker-days table thead tr:nth-child(3n+0) {
+    text-transform: uppercase;
+    font-weight: 300 !important;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.table-condensed > tbody > tr > td, .table-condensed > tbody > tr > th, .table-condensed > tfoot > tr > td, .table-condensed > tfoot > tr > th, .table-condensed > thead > tr > td, .table-condensed > thead > tr > th {
+    padding: 11px 13px;
+}
+.datepicker-months table thead td, .datepicker-months table thead th, .datepicker-years table thead td, .datepicker-years table thead th, .datepicker-decades table thead td, .datepicker-decades table thead th, .datepicker-centuries table thead td, .datepicker-centuries table thead th {
+    border-radius: 0;
+}
+.datepicker td, .datepicker th {
+    border-radius: 50%;
+    padding: 0 12px;
+}
+.datepicker-days table thead, .datepicker-months table thead, .datepicker-years table thead, .datepicker-decades table thead, .datepicker-centuries table thead {
+    background: var(--color-main);
+    color: #ffffff;
+    border-radius: 0;
+}
+.datepicker table tr td.active, .datepicker table tr td.active:hover, .datepicker table tr td.active.disabled, .datepicker table tr td.active.disabled:hover {
+    background-image: none;
+}
+.datepicker .prev, .datepicker .next {
+    color: rgba(255, 255, 255, 0.5);
+    transition: 0.3s;
+    width: 37px;
+    height: 37px;
+}
+.datepicker .prev:hover, .datepicker .next:hover {
+    background: transparent;
+    color: rgba(255, 255, 255, 0.99);
+    font-size: 21px;
+}
+.datepicker .datepicker-switch {
+    font-size: 24px;
+    font-weight: 400;
+}
+.datepicker .datepicker-switch:hover {
+    color: rgba(255, 255, 255, 0.7);
+    background: transparent;
+}
+.datepicker table tr td span {
+    border-radius: 2px;
+    margin: 3%;
+    width: 27%;
+}
+.datepicker table tr td span.active, .datepicker table tr td span.active:hover, .datepicker table tr td span.active.disabled, .datepicker table tr td span.active.disabled:hover {
+    background-color: var(--color-main);
+    background-image: none;
+}
+.dropdown-menu {
+    border: 1px solid rgba(0,0,0,.1);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+.datepicker-dropdown.datepicker-orient-top:before {
+    border-top: 7px solid rgba(0,0,0,.1);
+    
+}
+
+.datepicker table tr td.active:hover, .datepicker table tr td.active:hover:hover, .datepicker table tr td.active.disabled:hover, .datepicker table tr td.active.disabled:hover:hover, .datepicker table tr td.active:active, .datepicker table tr td.active:hover:active, .datepicker table tr td.active.disabled:active, .datepicker table tr td.active.disabled:hover:active, .datepicker table tr td.active.active, .datepicker table tr td.active:hover.active, .datepicker table tr td.active.disabled.active, .datepicker table tr td.active.disabled:hover.active, .datepicker table tr td.active.disabled, .datepicker table tr td.active:hover.disabled, .datepicker table tr td.active.disabled.disabled, .datepicker table tr td.active.disabled:hover.disabled, .datepicker table tr td.active[disabled], .datepicker table tr td.active:hover[disabled], .datepicker table tr td.active.disabled[disabled], .datepicker table tr td.active.disabled:hover[disabled] {
+    background-color: var(--color-main);
+    
+}
+
+.datepicker table tr td span.active:hover, .datepicker table tr td span.active:hover:hover, .datepicker table tr td span.active.disabled:hover, .datepicker table tr td span.active.disabled:hover:hover, .datepicker table tr td span.active:active, .datepicker table tr td span.active:hover:active, .datepicker table tr td span.active.disabled:active, .datepicker table tr td span.active.disabled:hover:active, .datepicker table tr td span.active.active, .datepicker table tr td span.active:hover.active, .datepicker table tr td span.active.disabled.active, .datepicker table tr td span.active.disabled:hover.active, .datepicker table tr td span.active.disabled, .datepicker table tr td span.active:hover.disabled, .datepicker table tr td span.active.disabled.disabled, .datepicker table tr td span.active.disabled:hover.disabled, .datepicker table tr td span.active[disabled], .datepicker table tr td span.active:hover[disabled], .datepicker table tr td span.active.disabled[disabled], .datepicker table tr td span.active.disabled:hover[disabled] {
+    background-color: var(--color-main);
+    
+}
+.datepicker table tr td span:hover, .datepicker table tr td span.focused {
+    background: var(--color-main);
+    color:white;
+}
+.datepicker .datepicker-months .month{
+    font-size: 14px;
+}
+.datepicker .prev, .datepicker .next{
+    font-size: 25px;
+}
+.datepicker .prev:hover, .datepicker .next:hover {
+    font-size: 25px;
+}
+.datepicker .datepicker-switch {
+    color: rgba(255, 255, 255, 0.7);
+    background: transparent;
+}
+.datepicker .datepicker-switch:hover {
+    color: white;
+}
+
+.received-warehouse-order-list .find{
+    font-size: 15px;
+    padding: 9px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: #fff;
+    background-color: var(--color-main);
+    border-color: var(--color-main);
+}
+
+.received-warehouse-order-list .add-up{
+    color: #fff;
+    background-color: var(--color-main);
+    border-color: var(--color-main);
+}
+
+.received-warehouse-order-list .search-date{
+    height: 40px;
+    border: 1px solid #c9c9c9;
+    font-size: 14px;
+    
+}
+.received-warehouse-order-list .search-date:focus{
+    border: 1px solid var(--color-main);
+    box-shadow: inset 0 1px 1px rgb(0 124 160 / 10%), 0 0 20px rgb(0 124 160/ 10%);
+}
+
+.received-warehouse-order-list .input-group-text{
+    font-size: 15px;
+}
+
+.received-warehouse-order-list .form-search-date{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.received-warehouse-order-list .line{
+    height: 1px;
+    background: #c9c9c9;
+    margin-bottom: 20px;;
+}
+
+
+
+.received-warehouse-order-list .dropdown-toggle::after{
+    visibility: hidden;
+}
+.received-warehouse-order-list .dropdown-toggle{
+    padding: 0px;
+    border: 0px;
+}
+
+.received-warehouse-order-list .dropdown-menu{
+    border: 0px !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    left: -10px !important;
+    top: -5px !important
+}
+
+
+.received-warehouse-order-list .btn-info{
+    font-size: 15px;
+}
+.received-warehouse-order-list .close{
+    font-size: 20px;
+}
+.received-warehouse-order-list .input-group-text{
+    font-size: 15px;
+}
+
+
+
+.received-warehouse-order-list .close{
+    font-size: 20px;
+}
+.received-warehouse-order-list .input-group-text{
+    font-size: 15px;
+}
+
+@media (min-width: 300px){
+    .modal-dialog {
+        max-width: 300px !important;
+        margin: 140px auto !important;
+        
+    }
+}
+
+.received-warehouse-order-list .paid_amount{
+    background-color: transparent;
+}
+
+.received-warehouse-order-list .paid{
+    width: 200px; 
+    margin-left: 40px; 
+    height: 40px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.received-warehouse-order-list .modal{
+    overflow: visible !important;
+}

@@ -1,0 +1,50 @@
+
+.notification .card{
+    height: auto;
+    margin-bottom: 20px;
+    padding-bottom: 40px;
+    font-size: 15px;
+    box-shadow: 0 1rem 1rem rgb(0 0 0 / 8%);
+}
+.notification .card-header{
+    font-size: 20px;
+    padding:15px;
+    background-color:white;
+    margin-bottom: 15px;
+}
+
+.notification  .btn-list:hover{
+    box-shadow: 0 2px 6px 0  rgb(142 155 156 / 50%);
+}
+
+.notification  .btn-list{
+    background-color: var(--color-main);
+    color: white;
+    border-radius: 2px;
+    font-size: 15px;
+}
+
+.notification .btn-success{
+    font-size: 15px;
+    margin-right: 20px;
+}
+.notification .btn-danger{
+    font-size: 15px;
+}
+.notification .justify-content-end{
+    margin-top: 30px;
+}
+.notification img{
+    border: none;
+    margin-top: 15px;
+}
+.notification .table{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.notification .out{
+    margin-left: 40px;
+}
+.notification .table-out{
+    margin-top: 40px;
+}

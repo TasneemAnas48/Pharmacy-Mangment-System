@@ -1,0 +1,124 @@
+body{
+    font-family: 'Nunito Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 10px !important;
+}
+
+
+.print-invoice .card{
+    height: auto;
+    margin-bottom: 20px;
+    padding-bottom: 40px;
+    font-size: 15px;
+    box-shadow: 0 1rem 1rem rgb(0 0 0 / 8%);
+    /* margin-left: 200px;
+    margin-right: 200px; */
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
+}
+.print-invoice .card-header{
+    font-size: 20px;
+    padding:15px;
+    background-color:white;
+    margin-bottom: 15px;
+}
+
+.print-invoice .btn-list:hover{
+    box-shadow: 0 2px 6px 0  rgb(142 155 156 / 50%);
+}
+
+.print-invoice .btn-list{
+    background-color: var(--color-main);
+    color: white;
+    border-radius: 2px;
+    font-size: 15px;
+    
+}
+
+.print-invoice h1{
+    font-weight: normal;
+    font-size: 30px;
+    color: var(--color-main);
+}
+
+.print-invoice .icone{
+    color: var(--color-main);
+    font-size: 32px;
+    margin-right: 10px;
+}
+.print-invoice .header{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+.print-invoice .row{
+    justify-content: center;
+}
+.print-invoice .span-ite{
+    font-weight: bold;
+}
+.print-invoice .table-header{
+    width: max-content;
+    margin-top: 10px;
+}
+.print-invoice .table-header td{
+    padding-left: 0px;
+}
+.print-invoice .head{
+    font-weight: bold;
+}
+.print-invoice .table-header td,.print-invoice .table-header th{
+    border-top: none !important;
+}
+.print-invoice h2{
+    color: var(--color-main);
+    font-size: 20px;
+}
+.print-invoice .from-body , .print-invoice .to-body{
+    font-size: 13px;
+}
+.print-invoice .from-table td, .print-invoice .to-table td{
+    padding: 5px 10px 5px 0px;
+    
+}
+.print-invoice .to-table td{
+    padding: 5px 10px 5px 0px;
+    
+}
+.print-invoice .middle{
+    margin-top: 30px;
+}
+.print-invoice .invoice-details{
+    margin: 50px 20px 50px 20px;
+}
+.print-invoice .invoice-details th{
+    border-bottom: 1px solid #ddd; 
+}
+.print-invoice .footer{
+    margin-left: 30px;
+}
+.print-invoice .comment{
+    font-weight: bold;
+}
+.print-invoice .thank{
+    font-size: 13px;
+    color: #9a9a9a;
+}
+.print-invoice .line{
+    height: 1px;
+    background: #c9c9c9;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.print-invoice .middle-table{
+    max-width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.print-invoice .middle-table td,.print-invoice .middle-table th{
+    border-top: none !important;
+}

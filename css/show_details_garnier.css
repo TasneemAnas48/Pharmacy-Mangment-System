@@ -1,0 +1,86 @@
+
+
+.show-details-garnier .card{
+    height: auto;
+    margin-bottom: 20px;
+    padding-bottom: 40px;
+    font-size: 15px;
+    box-shadow: 0 1rem 1rem rgb(0 0 0 / 8%);
+}
+.show-details-garnier .card-header{
+    font-size: 20px;
+    padding:15px;
+    background-color:white;
+    margin-bottom: 15px;
+}
+
+
+.show-details-garnier .btn-list:hover{
+    box-shadow: 0 2px 6px 0  rgb(142 155 156 / 50%);
+}
+
+.show-details-garnier .btn-list{
+    background-color: var(--color-main);
+    color: white;
+    border-radius: 2px;
+    font-size: 15px;
+}
+
+.show-details-garnier .card-header button {
+    font-size: 15px;
+}
+
+
+.show-details-garnier .form-control {
+    width: auto;
+}
+
+.show-details-garnier img{
+    height: 360px;
+    width: 460px;
+    margin-left: 150px;
+}
+
+.show-details-garnier label{
+    font-size: 16px;
+}
+
+.show-details-garnier .row-details{
+
+    transition: all 0.3s ease-in-out;
+}
+
+.show-details-garnier .row-details:hover{
+    color: var(--color-main);
+    margin-left: 18px;
+    transition: all 0.3s ease-in-out;
+}
+.show-details-garnier .value{
+    font-weight: normal;
+    font-size: 16px;
+}
+
+
+@media (max-width: 1150px) {
+    .show-details-garnier img{
+        height: 300px;
+        width: 400px;
+        margin-left: 100px;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 1050px) {
+    .show-details-garnier img{
+        height: 260px;
+        width: 300px;
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 900px) {
+    .show-details-garnier img{
+        margin-left: 20px;
+    }
+}

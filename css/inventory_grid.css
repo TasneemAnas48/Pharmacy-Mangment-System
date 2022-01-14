@@ -1,0 +1,86 @@
+
+
+.inventory-grid .card{
+    height: auto;
+    margin-bottom: 20px;
+    padding-bottom: 40px;
+    font-size: 15px;
+    box-shadow: 0 1rem 1rem rgb(0 0 0 / 8%);
+}
+.inventory-grid .card-header{
+    font-size: 20px;
+    padding:15px;
+    background-color:white;
+    margin-bottom: 15px;
+}
+
+
+.inventory-grid .btn-list:hover{
+    box-shadow: 0 2px 6px 0  rgb(142 155 156 / 50%);
+}
+
+.inventory-grid .btn-list{
+    background-color: var(--color-main);
+    color: white;
+    border-radius: 2px;
+    font-size: 15px;
+}
+
+.inventory-grid .card-header button{
+    font-size: 15px;
+}
+
+
+.inventory-grid .form-control {
+    width: auto;
+}
+
+
+
+.inventory-grid .row{
+    padding-top: 30px;
+    padding-bottom: 23px;
+}
+
+.inventory-grid .product{
+    margin-bottom: 30px;
+    border-radius: 0;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: none;
+    border: 1px solid rgb(245, 245, 245);
+    
+}
+
+.inventory-grid p{
+    font-size: 17px;
+}
+
+.inventory-grid .card-footer{
+    padding-top: 20px;
+    background-color: white;
+}
+
+.inventory-grid .product:hover {
+    box-shadow: 1px 0px 20px rgba(70, 70, 70, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+
+.inventory-grid .show-detail{
+    font-size:15px;
+    color: #808080;
+    text-decoration: none;
+}
+
+.inventory-grid .show-detail:hover{
+    text-decoration: none;
+    color: var(--color-main);
+}
+
+.inventory-grid .product{
+    height: 350px;
+}
+
+.inventory-grid img{
+    border: none;
+}
