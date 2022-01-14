@@ -1,0 +1,23 @@
+
+body {
+
+  height: 200vh;
+}
+
+.scrollToTopBtn {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  display: block;
+  padding: 8px 4px;
+  cursor: pointer;
+  transform: translateY(100px);
+  opacity: 0;
+  transition: transform 0.5s, opacity 0.3s;
+  z-index: 99999;
+}
+
+.showScrollBtn {
+  transform: translateY(0);
+  opacity: 1;
+}

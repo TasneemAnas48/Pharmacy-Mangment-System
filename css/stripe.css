@@ -1,0 +1,69 @@
+
+.stripe .main-card{
+    height: auto;
+    margin-bottom: 20px;
+    padding-bottom: 40px;
+    font-size: 15px;
+    box-shadow: 0 1rem 1rem rgb(0 0 0 / 8%);
+}
+.stripe .card-header{
+    font-size: 20px;
+    padding:15px;
+    background-color:white;
+    margin-bottom: 15px;
+}
+
+.stripe .card{
+    border: none !important;
+}
+
+.stripe  .btn-list:hover{
+    box-shadow: 0 2px 6px 0  rgb(142 155 156 / 50%);
+}
+
+.stripe  .btn-list{
+    background-color: var(--color-main);
+    color: white;
+    border-radius: 2px;
+    font-size: 15px;
+    height: 35;
+}
+
+.stripe .form-control{
+    height: 35px;
+    font-size: 15px;
+    box-shadow: none;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+
+.stripe .form-control:focus{
+    border-color: var(--color-main);
+}
+
+.panel-title {
+    display: inline;
+    font-weight: bold;
+}
+
+.display-table {
+    display: table;
+}
+
+.display-tr {
+    display: table-row;
+}
+
+.display-td {
+    display: table-cell;
+    vertical-align: middle;
+    width: 61%;
+}
+.stripe img{
+    border: none;
+    margin-left: 90px;
+}
+.panel-default{
+    border: none;
+}
