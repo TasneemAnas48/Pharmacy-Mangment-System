@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="https://kit.fontawesome.com/18695b64bb.js" crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/popper.min.js"></script>
+
+    <link rel="stylesheet" href="css/master.css">
+
+    <link rel="stylesheet" href="css/print_invoice.css">
+
+
+    <link rel="stylesheet" href="css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" href="css/responsive.bootstrap4.min.css">
+
+
+
+    <title>Pharmacy</title>
+    <link rel="icon" href="img/logo.png" sizes="16x16 32x32" type="image/png">
+
+</head>
+
+<body>
+
+    <!-- Start Body -->
+
+
+    <div class="body-page" id="body-page">
+        <div class="print-invoice">
+            <div class="card">
+                <div class="card-body">
+                    <div class="header">
+                        <div class="row">
+                            <i class="fas fa-laptop-medical icone"></i>
+                            <h1>Pharma<span class="span-ite">ITE</span></h1>
+                        </div>
+                        <div class="row">
+                            <table class="table table-header">
+                                <tbody>
+                                    <tr>
+                                        <td class="head">Invoice Id: </td>
+                                        <td>3</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="head">Invoice Date: </td>
+                                        <td>3-5-2021</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="middle">
+                        
+                        
+                        <div class="table-responsive">
+                            <table class=" table middle-table">
+                                <tbody class="from-body">
+                                    <tr>
+                                        <td colspan="2" class="text-left">
+                                            <div class="from">
+                                                <h2>BILLING FROM</h2>
+                                            </div>
+                                        </td>
+                                        
+                                        <td style="max-width: 140px;"></td>
+                                        <td colspan="2" class="text-left">
+                                            <div>
+                                                <h2>BILLING TO</h2>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-left">Branch Name: </td>
+                                        <td  class="text-left">Damas</td>
+                                        <td style="min-width: 140px;"></td>
+                                        <td class="text-left">Customer Id: </td>
+                                        <td class="text-left">23</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-left">Branch Email: </td>
+                                        <td  class="text-left">branch@gmail.com</td>
+                                        <td style="min-width: 140px;"></td>
+                                        
+                                        <td class="text-left">Customer Name: </td>
+                                        <td class="text-left">Haneen</td>
+                                    </tr>
+                                    <tr>
+                                        <td  class="text-left">Branch Location: </td>
+                                        <td  class="text-left">Damascuse</td>
+                                        <td style="min-width: 140px;"></td>
+                                        <td class="text-left">Customer Phone: </td>
+                                        <td class="text-left">0931231243</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-left">Employee Name: </td>
+                                        <td class="text-left">Tasneem</td>
+
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        
+                    </div>
+
+                    <div class="invoice-details">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Product Name</th>
+                                    <th>Quantity</th>
+                                    <th>Price</th>
+                                    <th>Discount % </th>
+                                    <th>Total</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>setamol</td>
+                                    <td>4</td>
+                                    <td>2000</td>
+                                    <td>50%</td>
+                                    <td>1000</td>
+                                </tr>
+
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td colspan="3" rowspan="1"></td>
+                                    <td><b>Total Amount</b></td>
+                                    <td>1000</td>
+                                </tr>
+                                
+                                <tr>
+                                    <td colspan="3" rowspan="1"></td>
+                                    <td><b>Invoice Discount %</b></td>
+                                    <td>0%</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3" rowspan="1"></td>
+                                    <td><b>Due Amount</b></td>
+                                    <td>100</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3" rowspan="1"></td>
+                                    <td><b>Paid Amount</b></td>
+                                    <td>900</td>
+                                </tr>
+
+                            </tfoot>
+                        </table>
+                    </div>
+                    <div class="line"></div>
+                    <div class="footer">
+                        <p class="comment">COMMENTS</p>
+                        <p class="thank">thank you</p>
+
+                    </div>
+
+                
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- End Body -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.24/js/dataTables.bootstrap4.min.js"></script>
+    <script src="https://cdn.datatables.net/responsive/2.2.7/js/dataTables.responsive.min.js"></script>
+    <script src="https://cdn.datatables.net/responsive/2.2.7/js/responsive.bootstrap4.min.js"></script>
+
+
+
+
+    <script src="js/main.js"></script>
+    <script src="js/themes.js"></script>
+    <script>
+        window.print();
+    </script>
+
+</body>
+
+</html>
