@@ -1,16 +1,16 @@
 # Pharmacy Mangment System
 This is a Pharmacy Management System, The system has 3 types of users are the Administrator, Pharmacist and Warehouse workers.This project has user-friendly functionalities.
 
-## Log in page
+### Log in page
 ![](https://raw.githubusercontent.com/TasneemAnas48/PharmacyMangmentSystem/d7e19e8c475d4ce8cefba68c9aa0e518c93548ac/Screenshot/2.jpg)
 
-## Forgot password page
+### Forgot password page
 ![](https://raw.githubusercontent.com/TasneemAnas48/PharmacyMangmentSystem/d7e19e8c475d4ce8cefba68c9aa0e518c93548ac/Screenshot/3.jpg)
 
-## Customer list 
+### Customer list 
 ![](https://raw.githubusercontent.com/TasneemAnas48/PharmacyMangmentSystem/d7e19e8c475d4ce8cefba68c9aa0e518c93548ac/Screenshot/5.jpg)
 
-## Return product from customer to pharmacy 
+### Return product from customer to pharmacy 
 ![](https://raw.githubusercontent.com/TasneemAnas48/PharmacyMangmentSystem/d7e19e8c475d4ce8cefba68c9aa0e518c93548ac/Screenshot/15.jpg)
 
 ## Print Incoice 
