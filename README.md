@@ -1,6 +1,10 @@
 # Pharmacy Mangment System
 This is a Pharmacy Management System, The system has 3 types of users are the Administrator, Pharmacist and Warehouse workers.This project has user-friendly functionalities.
 
+
+### Demo 
+Show [Demo Video](https://drive.google.com/file/d/1KJiFupey-zA1sx00U-WbS6jwKDJtM7PD/view?usp=sharing)
+
 ### Log in page
 ![](https://github.com/TasneemAnas48/Pharmacy-Mangment-System/blob/bd38c2e9d6b10ee24348ca073573157877f63863/Screenshot/2.jpg)
 
